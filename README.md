@@ -11,7 +11,7 @@ The GroupManager Provider can be used to create and manage only owned groups in 
 terraform {
   required_providers {
     groupmanager = {
-      source = "hashicorp/groupmanager"
+      source = "teswinfrastructure/groupmanager"
       version = "1.0.0"
     }
   }
