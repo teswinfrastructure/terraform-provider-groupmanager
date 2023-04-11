@@ -34,13 +34,4 @@ resource "groupmanager_group" "example" {
   owners           = [data.groupmanager_client_config.current.object_id]
   security_enabled = true
 }
-
-terraform {
-  required_providers {
-    azuread = {
-      source  = "hashicorp/azuread"
-      version = "~> 2.7.0"
-    }
-  }
-}
 ```
