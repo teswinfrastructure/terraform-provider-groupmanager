@@ -8,23 +8,15 @@ import (
 	"net/http"
 	"strings"
 
-	"terraform-provider-groupmanager/internal/common"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/common"
 
 	"github.com/hashicorp/go-azure-sdk/sdk/claims"
 	"github.com/hashicorp/go-azure-sdk/sdk/environments"
 	"github.com/hashicorp/go-azure-sdk/sdk/odata"
 
-	groups "terraform-provider-groupmanager/internal/services/groups/client"
-	//administrativeunits "terraform-provider-groupmanager/internal/services/administrativeunits/client"
-	//applications "terraform-provider-groupmanager/internal/services/applications/client"
-	//approleassignments "terraform-provider-groupmanager/internal/services/approleassignments/client"
-	//conditionalaccess "terraform-provider-groupmanager/internal/services/conditionalaccess/client"
-	//directoryroles "terraform-provider-groupmanager/internal/services/directoryroles/client"
-	///domains "terraform-provider-groupmanager/internal/services/domains/client"
-	//invitations "terraform-provider-groupmanager/internal/services/invitations/client"
-	//policies "terraform-provider-groupmanager/internal/services/policies/client"
-	serviceprincipals "terraform-provider-groupmanager/internal/services/serviceprincipals/client"
-	users "terraform-provider-groupmanager/internal/services/users/client"
+	groups "github.com/teswinfrastructure/terraform-provider-groupmanager/internal/services/groups/client"
+	serviceprincipals "github.com/teswinfrastructure/terraform-provider-groupmanager/internal/services/serviceprincipals/client"
+	users "github.com/teswinfrastructure/terraform-provider-groupmanager/internal/services/users/client"
 )
 
 // Client contains the handles to all the specific Azure AD resource classes' respective clients

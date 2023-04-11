@@ -1,7 +1,7 @@
 package client
 
 import (
-	"terraform-provider-groupmanager/internal/common"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/common"
 
 	"github.com/manicminer/hamilton/msgraph"
 )

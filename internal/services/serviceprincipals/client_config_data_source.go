@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"terraform-provider-groupmanager/internal/clients"
-	"terraform-provider-groupmanager/internal/tf"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/clients"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/tf"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"

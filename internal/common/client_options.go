@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"terraform-provider-groupmanager/version"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/version"
 
 	"github.com/hashicorp/go-azure-sdk/sdk/auth"
 	"github.com/hashicorp/go-azure-sdk/sdk/environments"

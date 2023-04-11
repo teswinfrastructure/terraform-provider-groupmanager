@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"terraform-provider-groupmanager/internal/clients"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/clients"
 
 	"github.com/hashicorp/go-azure-sdk/sdk/auth"
 	"github.com/hashicorp/go-azure-sdk/sdk/environments"

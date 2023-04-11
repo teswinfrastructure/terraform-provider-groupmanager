@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"terraform-provider-groupmanager/internal/utils"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/utils"
 
 	"github.com/hashicorp/go-uuid"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"

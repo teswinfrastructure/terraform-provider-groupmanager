@@ -1,4 +1,4 @@
-module terraform-provider-groupmanager
+module github.com/teswinfrastructure/terraform-provider-groupmanager
 
 go 1.20
 

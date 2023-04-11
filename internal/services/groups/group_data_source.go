@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"terraform-provider-groupmanager/internal/clients"
-	"terraform-provider-groupmanager/internal/tf"
-	"terraform-provider-groupmanager/internal/utils"
-	"terraform-provider-groupmanager/internal/validate"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/clients"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/tf"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/utils"
+	"github.com/teswinfrastructure/terraform-provider-groupmanager/internal/validate"
 
 	"github.com/hashicorp/go-azure-sdk/sdk/odata"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
