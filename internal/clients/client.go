@@ -31,31 +31,14 @@ type Client struct {
 
 	StopContext context.Context
 
-	// AdministrativeUnits *administrativeunits.Client
-	// Applications        *applications.Client
-	// AppRoleAssignments  *approleassignments.Client
-	// ConditionalAccess   *conditionalaccess.Client
-	// DirectoryRoles      *directoryroles.Client
-	// Domains             *domains.Client
-	Groups *groups.Client
-	// Invitations         *invitations.Client
-	// Policies            *policies.Client
+	Groups            *groups.Client
 	ServicePrincipals *serviceprincipals.Client
 	Users             *users.Client
 }
 
 func (client *Client) build(ctx context.Context, o *common.ClientOptions) error {
 	client.StopContext = ctx
-
-	// client.AdministrativeUnits = administrativeunits.NewClient(o)
-	// client.Applications = applications.NewClient(o)
-	// client.AppRoleAssignments = approleassignments.NewClient(o)
-	// client.Domains = domains.NewClient(o)
-	// client.ConditionalAccess = conditionalaccess.NewClient(o)
-	// client.DirectoryRoles = directoryroles.NewClient(o)
 	client.Groups = groups.NewClient(o)
-	// client.Invitations = invitations.NewClient(o)
-	// client.Policies = policies.NewClient(o)
 	client.ServicePrincipals = serviceprincipals.NewClient(o)
 	client.Users = users.NewClient(o)
 

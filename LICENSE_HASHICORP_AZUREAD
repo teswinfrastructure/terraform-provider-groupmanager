@@ -1,21 +1,7 @@
+Copyright (c) 2019 HashiCorp, Inc.
+
 Mozilla Public License Version 2.0
 ==================================
-
-GroupManager provider was created based on the orginal [azuread](https://registry.terraform.io/providers/hashicorp/azuread/latest) provider (version 2.36.0) created by HashiCorp, Inc. The original provider (azuread) is licensed under MPLv2. LICENSE_HASHICORP_AZUREAD file is a copy of that license.
-
-GroupManager provider uses a subset of functionalities offered by azuread provider focusing only on Azure AD group managment. When using the GroupManager provider, you can only manage groups that you own.
-
-List of things the azuread provider's code was used for:
-
-- provider
-- services
-- client and builder
-- helpers and utils
-- group_data_source (groupmanager_group)
-- group_resource (groupmanager_group)
-- client_config_data_source (groupmanager_client_config)
-
-The changes made consisted in removing code that was not needed to manage groups. Additional mechanism has been added to verify whether the caller is the owner of the managed group or not.
 
 1. Definitions
 --------------
